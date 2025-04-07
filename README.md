@@ -47,3 +47,27 @@ Ce projet est une application de gestion de tournois d'échecs développée en P
     ```bash
     py main.py
     ```
+
+## **Utilisation**
+
+Lors du lancement du programme, vous arrivez sur le menu principal dont l'arborescence est la suivante :
+
+```
+Bienvenue dans le programme de gestion des échecs !
+
+Menu principal :
+1. Créer un joueur
+2. Afficher les joueurs
+3. Créer un tournoi
+4. Reprendre un tournoi en cours
+5. Voir les détails d'un tournoi
+6. Quitter
+Entrez votre choix :
+```
+
+> **Note** : Des joueurs sont déjà présents dans le fichier `players.json` afin de pouvoir créer un tournoi rapidement.
+
+Afin de générer un nouveau fichier flake8, il faut exécuter la commande suivante :
+```bash
+flake8 --format=html --htmldir=flake-report
+```
