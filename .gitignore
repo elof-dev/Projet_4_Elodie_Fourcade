@@ -7,6 +7,5 @@ __pycache__/
 venv/
 .env
 
-# Rapport Flake8
-flake-report/
+
 
