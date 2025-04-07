@@ -4,10 +4,7 @@ Ce projet est une application de gestion de tournois d'échecs. Elle permet de c
 
 ## **Pré-requis**
 
-- **Python** : Version 3.13.1 ou ultérieure doit être installée sur votre machine.
-- **Environnement virtuel** : Recommandé pour gérer les dépendances.
-
----
+- **Python** : Version 3.13.1 ou ultérieure.
 
 ## **Installation**
 
@@ -62,29 +59,27 @@ Menu principal :
 6. Quitter
 Entrez votre choix :
 ```
-> **Note** : L'application ne joue pas les matchs automatiquement. Les matchs sont joués dans la vie réelle, et les résultats sont ensuite saisis dans l'application.
-
----
+> **Note** : L'application ne joue pas les matchs virtuellement. Les matchs sont joués dans la vie réelle, et les résultats sont ensuite saisis dans l'application.
 
 ## **Fonctionnement général**
 
 1. **Création des joueurs** :
-   - Les joueurs sont ajoutés dans l'application avec leurs informations personnelles et leur classement initial.
+   - Les joueurs sont ajoutés dans l'application avec leurs informations personnelles (nom, prénom, date de naissance, et identifiant national d'échec).
 
 2. **Création d'un tournoi** :
-   - L'utilisateur sélectionne les joueurs qui participeront au tournoi.
-   - L'application génère automatiquement les rounds en suivant les règles du système suisse.
-
-3. **Saisie des résultats** :
-   - Une fois les matchs joués IRL, l'utilisateur saisit les résultats dans l'application.
+   - L'utilisateur peut créer un tournoi en lui donnant un nom, un lieu et une description (facultatif).
+   - L'application génère automatiquement les matchs en fonction du nombre de joueurs présents. Les rounds sont prédéfinis à 4 par défaut comme demandé.
+   - A chaque round créé, l'utilisateur saisit les résultats dans l'application.
    - Les scores sont enregistrés, et les prochains rounds sont générés en fonction des résultats précédents.
+   - A la fin du tournoi, l'utilisateur peut mettre un commentaire s'il le souhaite.
+   - Si les tournois se déroulent sur plusieurs jours par exemple, l'utilisateur peut reprendre la saisie de son tournoi lors de la réouverture de l'application. Tous les scores sont sauvegardés.
 
 4. **Consultation des résultats** :
-   - À la fin du tournoi, l'utilisateur peut consulter les scores finaux et les classements des joueurs.
+   - À la fin des tournois, l'utilisateur peut consulter les scores finaux et les classements des joueurs.
 
----
 > **Note** : Des joueurs sont déjà présents dans le fichier `players.json` afin de pouvoir créer un tournoi rapidement.
 
+---
 Afin de générer un nouveau fichier flake8, il faut exécuter la commande suivante :
 ```bash
 flake8 --format=html --htmldir=flake-report
