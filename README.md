@@ -6,23 +6,44 @@ Ce projet est une application de gestion de tournois d'échecs développée en P
 
 ## **Pré-requis**
 
-- Python 3.13.1 ou version ultérieure doit être installé sur votre machine.
-- Un environnement virtuel est recommandé pour gérer les dépendances.
+- **Python** : Version 3.13.1 ou ultérieure doit être installée sur votre machine.
+- **Environnement virtuel** : Recommandé pour gérer les dépendances.
 
 ---
 
 ## **Installation**
 
 1. **Cloner le repository GitHub** :
-   ```bash
-   git clone https://github.com/elof-dev/Projet_4_Elodie_Fourcade.git
+    ```bash
+    git clone https://github.com/elof-dev/Projet_4_Elodie_Fourcade.git
+    ```
 
-se positionner sur le dossier : cd Projet_4_Elodie_Fourcade/application_chess
+2. **Se positionner sur le dossier** :
+    ```bash
+    cd Projet_4_Elodie_Fourcade/application_chess
+    ```
 
-créer l'environnement virtuel : py -m venv .venv
+3. **Créer l'environnement virtuel** :
+    ```bash
+    py -m venv .venv
+    ```
 
-activer l'environnement virtuel :  .venv\Scripts\activate
+4. **Activer l'environnement virtuel** :
+    - Sous Windows :
+      ```bash
+      .venv\Scripts\activate
+      ```
+    - Sous macOS/Linux :
+      ```bash
+      source .venv/bin/activate
+      ```
 
-installer les dépendances : pip install -r requirements.txt
+5. **Installer les dépendances** :
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-exécuter le script : py main.py
+6. **Exécuter le script** :
+    ```bash
+    py main.py
+    ```
