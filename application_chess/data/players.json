@@ -1,0 +1,50 @@
+[
+    {
+        "last_name": "Fourcade",
+        "first_name": "Elodie",
+        "birthdate": "12/08/1991",
+        "chess_id": "AA11111"
+    },
+    {
+        "last_name": "Henry",
+        "first_name": "Pierre",
+        "birthdate": "08/12/1995",
+        "chess_id": "BB22222"
+    },
+    {
+        "last_name": "Donval",
+        "first_name": "Etienne",
+        "birthdate": "25/12/1992",
+        "chess_id": "CC33333"
+    },
+    {
+        "last_name": "D'Amboise",
+        "first_name": "Claire",
+        "birthdate": "17/08/1992",
+        "chess_id": "DD44444"
+    },
+    {
+        "last_name": "Garrec",
+        "first_name": "Virgile",
+        "birthdate": "04/12/1990",
+        "chess_id": "EE55555"
+    },
+    {
+        "last_name": "Maus",
+        "first_name": "Anna",
+        "birthdate": "08/01/1993",
+        "chess_id": "FF66666"
+    },
+    {
+        "last_name": "Cadorel",
+        "first_name": "Thomas",
+        "birthdate": "15/12/1992",
+        "chess_id": "TT99999"
+    },
+    {
+        "last_name": "Briet",
+        "first_name": "Emile",
+        "birthdate": "15/06/1991",
+        "chess_id": "JJ88888"
+    }
+]

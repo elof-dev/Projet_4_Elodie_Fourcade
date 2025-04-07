@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnement virtuels
+venv/
+.env
+
+# Rapport Flake8
+flake-report/
