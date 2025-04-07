@@ -1,8 +1,6 @@
 # Projet 4 - Application Chess
 
-Ce projet est une application de gestion de tournois d'échecs développée en Python. Elle permet de créer des joueurs, organiser des tournois, gérer les rounds, et afficher les classements.
-
----
+Ce projet est une application de gestion de tournois d'échecs. Elle permet de créer des joueurs, et d'organiser des tournois.
 
 ## **Pré-requis**
 
@@ -64,7 +62,27 @@ Menu principal :
 6. Quitter
 Entrez votre choix :
 ```
+> **Note** : L'application ne joue pas les matchs automatiquement. Les matchs sont joués dans la vie réelle, et les résultats sont ensuite saisis dans l'application.
 
+---
+
+## **Fonctionnement général**
+
+1. **Création des joueurs** :
+   - Les joueurs sont ajoutés dans l'application avec leurs informations personnelles et leur classement initial.
+
+2. **Création d'un tournoi** :
+   - L'utilisateur sélectionne les joueurs qui participeront au tournoi.
+   - L'application génère automatiquement les rounds en suivant les règles du système suisse.
+
+3. **Saisie des résultats** :
+   - Une fois les matchs joués IRL, l'utilisateur saisit les résultats dans l'application.
+   - Les scores sont enregistrés, et les prochains rounds sont générés en fonction des résultats précédents.
+
+4. **Consultation des résultats** :
+   - À la fin du tournoi, l'utilisateur peut consulter les scores finaux et les classements des joueurs.
+
+---
 > **Note** : Des joueurs sont déjà présents dans le fichier `players.json` afin de pouvoir créer un tournoi rapidement.
 
 Afin de générer un nouveau fichier flake8, il faut exécuter la commande suivante :
