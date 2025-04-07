@@ -17,12 +17,12 @@ Ce projet est une application de gestion de tournois d'échecs développée en P
    ```bash
    git clone https://github.com/elof-dev/Projet_4_Elodie_Fourcade.git
 
-    se positionner sur le dossier : cd Projet_4_Elodie_Fourcade/application_chess
+se positionner sur le dossier : cd Projet_4_Elodie_Fourcade/application_chess
 
-    créer l'environnement virtuel : py -m venv .venv
+créer l'environnement virtuel : py -m venv .venv
 
-    activer l'environnement virtuel :  .venv\Scripts\activate
+activer l'environnement virtuel :  .venv\Scripts\activate
 
-    installer les dépendances : pip install -r requirements.txt
+installer les dépendances : pip install -r requirements.txt
 
-    exécuter le script : py main.py
+exécuter le script : py main.py
