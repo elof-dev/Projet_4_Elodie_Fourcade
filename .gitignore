@@ -10,5 +10,3 @@ venv/
 # Rapport Flake8
 flake-report/
 
-# VScode
-.vscode/

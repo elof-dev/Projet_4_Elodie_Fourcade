@@ -3,7 +3,7 @@ from controllers.tournament_controller import TournamentController
 
 
 def main():
-    print("\nBienvenue dans le programme de gestion des échecs !")
+    print("\nBienvenue dans le programme de gestion de tournois d'échecs !")
     player_controller = PlayerController()
     tournament_controller = TournamentController()
 
